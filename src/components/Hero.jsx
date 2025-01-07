@@ -1,5 +1,5 @@
 import React from 'react'
-import borz from '../assets/borz1.jfif'
+import borz from '../assets/borz1-removebg-preview.png'
 import facebook50  from '../assets/fb50.png'
 import insta50  from '../assets/insta50.png'
 import git50  from '../assets/git50.png'
@@ -11,7 +11,7 @@ import link50  from '../assets/link50.png'
 const Hero = () => {
   return (
     <section className='flex  p-10 items-center w-screen  '>
-        <div className='flex flex-col gap-6 '>
+        <div className='flex flex-col gap-6 py-5 '>
           <span className='text-black text-6xl font-bold'>Hi There,</span>
           <span className='flex gap-2'> <p className='text-6xl text-black font-bold'>I'm Ramzi</p> <p className='text-6xl text-red-500 font-bold'>Borz</p></span>
           <p className='text-black font-medium'>Web Developer</p>

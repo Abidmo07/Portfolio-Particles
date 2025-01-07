@@ -14,7 +14,7 @@ function App() {
  
   return (
 <>
-<div className="absolute inset-0 -z-10">
+<div className="absolute inset-0 -z-10 h-screen">
   <Particle />
 </div>
 
